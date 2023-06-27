@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var msg = Environment.GetEnvironmentVariable("MyName");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <strong>@msg</strong>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
